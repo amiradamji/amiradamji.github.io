@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
 /*#maintitle {
 background-color: yellow;
 }
@@ -23,24 +26,34 @@ html {
 
 
 p{
-  font-family: 'Open Sans',serif;
+  font-family: 'Roboto Condensed',serif;
   font-size: 1.5em;
 
   padding-left: 2%;
-  color: #000000;
+  color: #FEDB06;
   background-color: #FFFFFFFF;
 
 }
 h1
 {
-  font-family: 'Open Sans',serif;
+  font-family: 'Francois One',serif;
   font-size: 3em;
   text-align: center;
   text-decoration: underline;
-  color: #000000;
+  color: #FEDB06;
   background-color: #FFFFFFFF;
 
 }
+
+#subheading{
+  text-align:center;
+ width: 80%;
+ padding-left: 10%;
+padding-top: -1em;
+
+
+}
+
 
 ol li{
   font-family: 'Open Sans',serif;
