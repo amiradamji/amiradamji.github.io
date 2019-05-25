@@ -29,18 +29,18 @@ p{
   font-family: 'Roboto Condensed',serif;
   font-size: 1.5em;
 
-  padding-left: 2%;
-  color: #FEDB06;
+  padding-left: 5%;
+  color: #000000;
   background-color: #FFFFFFFF;
 
 }
 h1
 {
   font-family: 'Francois One',serif;
-  font-size: 3em;
+  font-size: 300%;
   text-align: center;
   text-decoration: underline;
-  color: #FEDB06;
+  color: #000000;
   background-color: #FFFFFFFF;
 
 }
@@ -56,11 +56,16 @@ padding-top: -1em;
 
 
 ol li{
-  font-family: 'Open Sans',serif;
+  font-family: 'Roboto Condensed',serif;
+width:20em;
+margin-left: 25%;
+
+  padding-left: 0%;
   font-size: 1.5em;
   font-weight: bold;
   color: #000000;
   text-align: center;
+background-color: #FFFFFF;
 
 
 }
@@ -174,7 +179,7 @@ padding: 10%;
 }
 
 .videodescription{
-  font-family: 'Open Sans',serif;
+  font-family: 'Roboto Condensed',serif;
   font-size: 1.5em;
   padding-left: 2%;
   position:relative;
@@ -201,43 +206,55 @@ padding: 10%;
 }
 
 .thanks{
-  font-family: 'Open Sans',serif;
-  font-size: 1em;
+  font-family: 'Roboto Condensed',serif;
+  font-size: 100%;
   padding-left: 2%;
   position:relative;
   top: 10%;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+
+
+div.gallery {
+  margin-top: 2.5em;
+  border: 1px solid #ccc;
 }
 
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 50%;
-  padding: 0 4px;
+div.gallery:hover {
+  border: 1px solid #777;
 }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
+div.gallery img {
+  width: 100%;
+  height: auto;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 19.999999%;
+}
+
+@media only screen and (max-width: 100%) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
+@media only screen and (max-width: 100%) {
+  .responsive {
+    width: 100%;
   }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
