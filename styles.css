@@ -238,25 +238,24 @@ div.gallery img {
   box-sizing: border-box;
 }
 
-.responsive {
-  
-  padding: 0px 6px;
-  float: left;
-  width: 33%;
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
 }
 
-@media only screen and (max-width: 100%) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
 }
 
-@media only screen and (max-width: 100%) {
-  .responsive {
-    width: 100%;
-  }
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
+
 
 .clearfix:after {
   content: "";
