@@ -207,6 +207,7 @@ padding-left: 5%;
 }
 
 .thanks{
+  padding-top: 5%;
   font-family: 'Roboto Condensed',serif;
   font-size: 100%;
   padding-left: 2%;
@@ -217,6 +218,7 @@ padding-left: 5%;
 
 
 div.gallery {
+  
   margin-top: 2.5em;
   border: 1px solid #ccc;
 }
@@ -226,6 +228,7 @@ div.gallery:hover {
 }
 
 div.gallery img {
+  font-size: 0;
   width: 100%;
   height: auto;
 }
@@ -236,9 +239,10 @@ div.gallery img {
 }
 
 .responsive {
-  padding: 0 6px;
+  
+  padding: 0px 6px;
   float: left;
-  width: 19.999999%;
+  width: 33%;
 }
 
 @media only screen and (max-width: 100%) {
