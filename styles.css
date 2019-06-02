@@ -224,7 +224,7 @@ div.gallery {
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 5px solid #777;
 }
 
 div.gallery img {
@@ -239,22 +239,20 @@ div.gallery img {
 }
 
 .row {
-  width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100%, 100%));
-  grid-gap: 20px;
-  align-items: stretch;
+  grid-template-columns: repeat(auto-fill, 33%);
+  align-items: center;
 }
 
 /* Create two equal columns that sits next to each other */
 .column {
-  
   padding: 0 4px;
+  vertical-align: top;
 }
 
 .column img {
   margin-top: 0px;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 
