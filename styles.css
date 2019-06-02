@@ -239,20 +239,21 @@ div.gallery img {
 }
 
 .row {
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(100%, 100%));
   grid-gap: 20px;
   align-items: stretch;
 }
 
 /* Create two equal columns that sits next to each other */
 .column {
-  flex: 50%;
+  
   padding: 0 4px;
 }
 
 .column img {
-  margin-top: 8px;
+  margin-top: 0px;
   vertical-align: middle;
 }
 

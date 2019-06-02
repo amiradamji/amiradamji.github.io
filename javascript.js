@@ -1,17 +1,3 @@
-$(function() {
-  // Get page title
-    var pageTitle = $("title").text();
-
-  // Change page title on blur
-  $(window).blur(function() {
-    $("title").text("The Photography of Ana Victoria Jiménez");
-  });
-
-  // Change page title back on focus
-  $(window).focus(function() {
-    $("title").text(pageTitle);
-  });
-});
 
 var slideIndex = 1;
 showSlides(slideIndex);
