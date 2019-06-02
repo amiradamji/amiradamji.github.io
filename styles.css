@@ -207,7 +207,8 @@ padding-left: 5%;
 }
 
 .thanks{
-  padding-top: 5%;
+  padding-top: 2.5%;
+  padding-bottom: 2%;
   font-family: 'Roboto Condensed',serif;
   font-size: 100%;
   padding-left: 2%;
@@ -260,4 +261,29 @@ div.gallery img {
   content: "";
   display: table;
   clear: both;
+}
+
+.logorow {
+
+  align-items: center;
+}
+
+div.logos {
+  
+  margin-top: 2.5em;
+
+}
+
+div.logos img {
+  font-size: 0;
+  width: 10%;
+  height: auto;
+
+}
+
+div.logorotate img {
+  font-size: 0;
+  width: 10%;
+  height: auto;
+  transform: rotate(270deg);
 }
